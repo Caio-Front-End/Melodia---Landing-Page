@@ -50,9 +50,7 @@ Para executar este projeto em seu ambiente de desenvolvimento local, siga os pas
 
 1. **Clone o repositório:**
 
-```bash
-git clone <link do respositório>
-```
+git clone [🔗 Link do repositório]([https://passa-a-bola-web-app.vercel.app](https://github.com/Caio-Front-End/Melodia---Landing-Page.git))
 
 2. **Navegue até o diretório do projeto:**
 
