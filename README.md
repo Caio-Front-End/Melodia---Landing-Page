@@ -86,6 +86,5 @@ npm start
 | Manoah Leão                    | [LinkedIn](https://www.linkedin.com/in/manoah-le%C3%A3o-735a83346/)        | 563713 |
 | Matheus Rodrigues              | [LinkedIn](https://www.linkedin.com/in/matheus-rodrigues-rocha-496921278/) | 561689 |
 | Lucas Cavalcante               | [LinkedIn](https://www.linkedin.com/in/lucas-cavalcante-jardim-67a875318/) | 562857 |
-Abra seu navegador e acesse http://localhost:3000 para ver a página.
 
-Nota: Certifique-se de ter a imagem mockup-melodia.png na pasta src/assets ou ajuste o caminho da importação conforme necessário.
+
