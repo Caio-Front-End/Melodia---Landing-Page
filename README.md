@@ -1,16 +1,91 @@
-# React + Vite
+# Melodia - Landing Page do Aplicativo de Música
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Esta é uma landing page moderna e responsiva para o "Melodia", um aplicativo conceitual de streaming de música. O projeto foi desenvolvido com React e estilizado com Tailwind CSS para demonstrar uma interface de usuário elegante e atraente, focada em converter visitantes em usuários.**
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Seções da Página
+A página está estruturada em várias seções para guiar o usuário pela proposta de valor do aplicativo:
 
-## React Compiler
+- **Header Fixo:** Uma barra de navegação que acompanha o scroll, com links para as seções principais e um botão de CTA (Call to Action) para download.
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Seção Hero:** A primeira impressão do usuário, com um título impactante, uma breve descrição do app e um mockup visual da interface.
 
-## Expanding the ESLint configuration
+- **Funcionalidades:** Apresenta os quatro pilares do aplicativo (Qualidade Sonora, Playlists Personalizadas, Descoberta de Artistas e Interface Intuitiva) usando ícones da biblioteca lucide-react.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Depoimentos:** Prova social com citações e avaliações de usuários fictícios para gerar confiança e credibilidade.
+
+- **Formulário de Contato:** Uma seção interativa que permite aos visitantes enviar mensagens. O formulário possui validação simples e feedback visual de sucesso ou erro.
+
+- **Rodapé:** Contém links rápidos, informações de contato e ícones de redes sociais.
+
+---
+
+## ✨ Funcionalidades do Código
+
+- **Componentização:** Embora contido em um único arquivo, o código utiliza componentes funcionais do React, como StarRating e CTAButton, para reutilização e clareza.
+
+- **Gerenciamento de Estado:** O useState do React é utilizado para gerenciar os dados do formulário de contato (email e mensagem), o estado de envio e o feedback para o usuário.
+
+- **Design Responsivo:** O layout utiliza as classes utilitárias do Tailwind CSS para garantir uma ótima experiência em dispositivos móveis, tablets e desktops.
+
+- **Simulação de API:** O envio do formulário é simulado com um setTimeout para demonstrar o comportamento assíncrono, como uma chamada de API real.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **React:** Biblioteca JavaScript para construir a interface de usuário.
+
+- **Tailwind CSS:** Framework CSS utility-first para estilização rápida e customizável.
+
+- **Lucide React:** Biblioteca de ícones SVG, leve e de fácil implementação.
+
+- **Google Fonts (Inter):** Fonte utilizada para garantir uma tipografia limpa e moderna.
+
+---
+
+## 🏃‍♂️ Como Executar o Projeto
+Para executar este projeto em seu ambiente de desenvolvimento local, siga os passos abaixo:
+
+1. **Clone o repositório:**
+
+```bash
+git clone <link do respositório>
+```
+
+2. **Navegue até o diretório do projeto:**
+
+```bash
+cd melodia-landing-page
+```
+
+3. **Instale as dependências necessárias:**
+(Este projeto requer react, react-dom e lucide-react).
+
+```bash
+npm install react react-dom lucide-react
+```
+
+4. **Configure o Tailwind CSS:**
+Siga o guia de instalação do Tailwind CSS para Create React App para configurar os arquivos tailwind.config.js e index.css.
+
+Inicie o servidor de desenvolvimento:
+
+```bash
+npm start
+```
+
+---
+
+## 👨‍💻 Desenvolvedores
+
+| Nome                           | Rede Social                                                                | RM's   |
+| ------------------------------ | -------------------------------------------------------------------------- | ------ |
+| Caio Nascimento Battista       | [LinkedIn](https://www.linkedin.com/in/cnbtt/)                             | 561383 |
+| Manoah Leão                    | [LinkedIn](https://www.linkedin.com/in/manoah-le%C3%A3o-735a83346/)        | 563713 |
+| Matheus Rodrigues              | [LinkedIn](https://www.linkedin.com/in/matheus-rodrigues-rocha-496921278/) | 561689 |
+| Lucas Cavalcante               | [LinkedIn](https://www.linkedin.com/in/lucas-cavalcante-jardim-67a875318/) | 562857 |
+Abra seu navegador e acesse http://localhost:3000 para ver a página.
+
+Nota: Certifique-se de ter a imagem mockup-melodia.png na pasta src/assets ou ajuste o caminho da importação conforme necessário.
